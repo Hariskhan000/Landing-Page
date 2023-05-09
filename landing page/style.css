@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.hero-content{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(gym1.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.hero-content nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+.hero-content nav .brand{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.hero-content nav .brand span{
+    color: #ea1538;
+}
+.hero-content nav ul li{
+    display: inline-block;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+.hero-content nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero-content nav ul li a:hover {
+    color: #ea1538;
+    transition: .5s;
+}
+.hero-content nav button{
+    width: 158px;
+    padding: 8px 0;
+    background-color: #ea1538;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.hero-content nav button:hover {
+    transform: scale(1.1);
+    transition: .5s;
+
+}
+.hero-content .content{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,50%);
+}
+.hero-content .content h2 {
+    margin: 10px 0;
+    font-size: 2.3rem;
+    font-weight: bold;
+
+}
+.hero-content .content p {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
